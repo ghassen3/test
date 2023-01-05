@@ -102,7 +102,7 @@ export default function Menu() {
                 </div>
                 <div className="hidden space-x-2 md:inline-block">
                     <button
-                        onClick={add}
+                        onClick={()=>add()}
                         className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
                     >
                         Add App
